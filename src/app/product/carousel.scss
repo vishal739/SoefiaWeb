@@ -1,0 +1,49 @@
+.carousel1 {
+  .slick-slide {
+    width: 480px !important;
+    margin: 0 auto; 
+  }
+
+  .slick-list {
+    padding: 0; 
+  }
+
+  .slick-track {
+    display: flex; 
+    align-items: center; 
+  }
+}
+.carousel2 {
+  .slick-slide {
+    width: 1280px !important;
+    margin: 0 auto; 
+  }
+
+  .slick-list {
+    padding: 0; 
+  }
+
+  .slick-track {
+    display: flex; 
+    align-items: center; 
+  }
+}
+.carousel3 {
+  .slick-slide {
+    width: 690px !important;
+    margin: 0 auto; 
+  }
+
+  .slick-list {
+    padding: 0; 
+  }
+
+  .slick-track {
+    display: flex; 
+    align-items: center; 
+  }
+}
+.carousel-image {
+  width: 890px;
+  height: calc((890 * 9) / 13);
+}
