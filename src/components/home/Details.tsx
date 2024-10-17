@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     image: "/header/first.svg",
-    text: "Personalized TAs that work your way",
+    text: "Personalized TAs that adapt to your style",
   },
   {
     image: "/header/middle.svg",
@@ -24,7 +24,7 @@ const k12 = [
   },
   {
     image: "/details/settings.svg",
-    text: "Works with your critical enterprise applications, like your student information system and learning management system",
+    text: "Integrates seamlessly with your critical enterprise applications, such as your student information system and learning management system",
   },
   {
     image: "/details/last.svg",
@@ -63,8 +63,7 @@ export default function Details() {
           />
         </div>
         <h2 className="lg:text-3xl text-2xl font-bold text-center z-10 lg:w-[60%] lg:py-0 py-[4%]" style={{ color: "white" }}>
-          Finally every teacher now can have (multiple) teaching assistants in
-          her classroom!
+        At last, all teachers can have multiple teaching assistants in their classroom!
         </h2>
         <div className="flex flex-col gap-8 items-center justify-center pt-8 ">
           {data.map((ele, idx) => (
@@ -84,7 +83,7 @@ export default function Details() {
       <div className="bg-[#DBEAFD] w-full z-10 text-black px-[5%] py-[8%] flex flex-col items-center justify-center gap-[32px]">
         <h3 className="text-xl text-center font-bold text-bg">
           {" "}
-          Designed and built specifically for K-12
+          Designed and built for K-12 education
         </h3>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 px-[8%]">
           {k12.map((ele, idx) => (

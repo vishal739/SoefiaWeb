@@ -4,7 +4,7 @@ import Header from "@/components/home/Header";
 
 export default function Home() {
   return (
-  <div className="pt-[3%] ">
+  <div className="pt-[3%]">
     <Header/>
     <Details/>
     <Features/>
