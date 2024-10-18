@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-
+import "./Details.scss";
 const data = [
   {
     image: "/header/first.svg",
@@ -62,8 +62,12 @@ export default function Details() {
             className="opacity-40"
           />
         </div>
-        <h2 className="lg:text-3xl text-2xl font-bold text-center z-10 lg:w-[60%] lg:py-0 py-[4%]" style={{ color: "white" }}>
-        At last, all teachers can have multiple teaching assistants in their classroom!
+        <h2
+          className="lg:text-3xl text-2xl font-bold text-center z-10 lg:w-[60%] lg:py-0 py-[4%]"
+          style={{ color: "white" }}
+        >
+          At last, all teachers can have multiple teaching assistants in their
+          classroom!
         </h2>
         <div className="flex flex-col gap-8 items-center justify-center pt-8 ">
           {data.map((ele, idx) => (
@@ -106,13 +110,13 @@ export default function Details() {
 
         <div className="px-[5%] py-[2%] pb-[5%] flex flex-col gap-12 items-center justify-center w-full">
           <h2
-            className="text-3xl font-bold text-center"
+            className="text-3xl font-bold text-center mb-10"
             style={{ color: "white" }}
           >
             Impact
           </h2>
 
-          <div className="relative w-full max-w-md py-8">
+          <div className="relative w-full max-w-2xl py-8">
             {car.map((ele, idx) => (
               <div
                 key={idx}
@@ -123,11 +127,10 @@ export default function Details() {
                 <Image
                   src={ele}
                   alt="Impact"
-                  layout="intrinsic"
-                  objectFit="contain"
-                  width={900}
-                  height={200}
-                  className="w-full h-auto"
+                  width={1200}
+                  height={400}
+                  className="img-size"
+                  style={{ objectFit: "contain" }}
                 />
               </div>
             ))}
