@@ -21,7 +21,7 @@ export default function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentText((prev) => (prev + 1) % carousel.length);
-    }, 2000); 
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, []);
